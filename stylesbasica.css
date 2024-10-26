@@ -1,0 +1,400 @@
+body {
+   padding: 0;
+   margin: auto;
+}
+
+.head {
+   display: inline-block;
+   background-color:#247ba0;
+   color: white;
+   text-decoration: none;
+   font-size: 14pt;
+   width: 100vw;
+}
+
+.head a {
+   color: white;
+   padding: 15px 15px;
+   text-decoration: none;
+}
+
+.head a:hover {
+   color: #17a2b8;
+}
+
+nav {
+   display: flex;
+   align-items: center;
+   justify-content:left;
+   padding-top: 12px;
+   padding-left: 2%;
+   padding-right: 5%;
+   padding-bottom: 5px;
+   font-weight: bold;
+   font-family: cursive;
+}
+
+nav ul li {
+   display: inline-block;
+   padding: 0px 20px;
+}
+
+.logo img {
+   height: 60px;
+   border-radius: 50%;
+}
+
+.text-center {
+   display: flex;
+   font-size:1.2rem; 
+   font-weight:bold;
+   text-align: center;
+   font-family: cursive;
+   margin-bottom: 2rem;
+   color: black;
+   width: 500px;
+   flex-direction: column;
+}
+
+.formulario-busqueda {
+   width:100%;
+   justify-content:center;
+   background-image:url(https://ethic.es/wp-content/uploads/2023/10/biblioteca.png);
+   background-position: center;
+   background-position: top center;
+   background-position: right top;
+   background-size: auto;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   background-attachment: fixed;
+   color: white;
+}
+
+.grupo-busqueda {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.input-btn {
+   display: inline-block;
+   text-align: center;
+   font-family: cursive;
+   font-size: 16px;
+   align-items: center;
+   color:#fff;
+   background-color: gray;
+   cursor: pointer;
+   border: none;
+   padding: 10px 10px;
+   text-decoration: none;
+   border-radius: 5%;
+}
+
+.caja-busqueda {
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   align-items: center;
+   gap: 10px;
+}
+
+.input-buscar {
+   margin: 0;
+   padding: 10px 10px;
+   min-width: 400px;
+}
+
+.titulo-pagina {
+   margin: 0;
+   font-size: 70px;
+   padding-bottom: 10px;
+}
+
+.text-center3 {
+   display: inline-block;
+   justify-content: center;
+   align-items: center;
+   font-family: cursive;
+   font-size: 40px;
+   text-align: center;
+   color: gray;
+   width: 5px;
+   white-space: nowrap;
+}
+
+.input-group {
+   display: flex;
+   justify-content: center;
+}
+
+.titulo-principal-container {
+   color: #17a2b8;
+   font-size: 30px;
+   text-align: center;
+   margin: 6rem;
+}
+
+.img-description {
+   width: 190px;
+   height: 300px;
+   align-items: center;
+   justify-content: center;
+   margin-left: 13rem;
+   margin-top: 5rem;
+   margin-bottom: 5rem;
+}
+
+.book-description {
+   width: 600px;
+   font-family: cursive;
+   font-size: 14px;
+   color: #17a2b8;
+   line-height: 1.2;
+   margin-left: 28rem;
+   margin-bottom: 6rem;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 0 2px gray;
+}
+
+footer {
+   background-color: #247ba0;
+   padding: 1rem 0;
+   text-align: center;
+   position: absolute;
+   font-size: 14pt;
+   width: 100%;
+   margin-top: 4rem;
+}
+
+footer a {
+   color: #e6e0e0;
+   text-decoration: none;
+}
+
+.container {
+   max-width: 1000px;
+   margin: 0 auto;
+}
+ 
+.row {
+   display: flex;
+   flex-wrap: wrap;
+}
+ 
+.col-md-6 {
+   padding: 2px 2px 2px 2px;
+   color: #e6e0e0;
+   margin-top: 30px;
+   margin-left: 25.5rem;
+}
+
+.col-md-5 {
+   color: #e6e0e0;
+   font-size: 20px;
+   font-family: cursive;
+   padding: 2px 2px 2px 2px;
+   margin-top: 10px;
+}
+
+.col-md-7 {
+   color: #e6e0e0;
+   font-family: cursive;
+   margin-top: 10px;
+   margin-left: 14rem;
+   padding: 2px 2px 2px 2px;
+}
+
+.inicio {
+   margin-left: 12rem;
+   margin-top: 1rem;
+   color: #17a2b8;
+   font-family: cursive;
+   text-decoration-line: none;
+}
+
+.titulo {
+   color: #17a2b8;
+   font-family: cursive;
+   font-size: 20px;
+   line-height: 1.2;
+   margin: 130px;
+   margin-right: 12rem;
+}
+
+.libro {
+   width: 300px;
+   background-color: #f2f2f2;
+   padding: 10px;
+   margin-bottom: 50px;
+   border-radius: 1rem;
+   box-shadow: 1px 1px gray;
+   justify-content: center;
+   text-align: center;
+}
+
+.libros-container {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   justify-content: space-evenly;
+   color: #17a2b8;
+   font-family: cursive;
+   font-size: 20px;
+   line-height: 1.2;
+   margin: 130px;
+   padding: 3rem;
+}
+
+.libro-description {
+   font-family: cursive;
+   font-size: 14px;
+   color: #17a2b8;
+   line-height: 1.2;
+   margin-left: 3rem;
+   margin-bottom: 1rem;
+   text-align: justify;
+   justify-content: center;
+}
+
+.imagen-description {
+   margin: 60px;
+}
+
+.titulo-autores {
+   color: #17a2b8;
+   font-family: cursive;
+   font-size: 20px;
+   line-height: 1.2;
+   margin: 130px;
+   margin-right: 12rem;
+}
+
+.autores-container {
+   color: #17a2b8;
+   font-family: cursive;
+   line-height: 1.2;
+   margin: 130px;
+}
+
+.autores-description {
+   width: 600px;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   margin-left: 20rem;
+   margin-bottom: 2rem;
+   box-shadow: 0 2px gray;
+}
+
+.autores-img-description {
+   border-radius: 50%;
+   margin-bottom: 6rem;
+   margin-top: 3rem;
+}
+
+.titulo-categorias {
+   color: #17a2b8;
+   font-family: cursive;
+   font-size: 20px;
+   line-height: 1.2;
+   margin: 130px;
+   margin-right: 12rem;
+}
+
+.categorias {
+   color: #17a2b8;
+   background-color: #f2f2f2;
+   border-radius: 5px;
+   padding: 15px;
+   margin-left: 7.5rem;
+   margin-right: 7.5rem;
+   margin-bottom: 1.5rem
+}
+
+.categorias-container {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   justify-content: space-evenly;
+   margin: 80px;
+}
+
+.categorias-description {
+   color: #17a2b8;
+   font-family: cursive;
+}
+
+.titulo-colecciones {
+   color: #17a2b8;
+   font-family: cursive;
+   font-size: 20px;
+   line-height: 1.2;
+   margin: 130px;
+   margin-right: 12rem;
+}
+
+.colecciones {
+   display: grid;
+   grid-template-columns: 4fr 2fr;
+   margin-bottom: 5rem;
+   width: 500px;
+   background-color: #f2f2f2;
+   padding: 2rem;
+   border-radius: 1rem;
+}
+.colecciones-img-description {
+   width: 100%;
+}
+
+.colecciones-container {
+   display: grid;
+   justify-content: center;
+}
+
+.colecciones-description {
+   color: #17a2b8;
+   display: block;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+}
+
+a {
+   color: #17a2b8;
+   text-decoration: none;
+}
+
+.titulo-audiolibros {
+   color: #17a2b8;
+   font-family: cursive;
+   font-size: 20px;
+   line-height: 1.2;
+   margin: 130px;
+   margin-right: 12rem;
+}
+
+.audiolibros-container {
+   display: grid;
+   grid-template-columns: auto auto;
+   justify-content: space-evenly;
+}
+
+.audiolibros {
+   background-color: #f2f2f2;
+   padding-top: 0.8rem;
+   padding-bottom: 1rem;
+   padding-left: 3rem;
+   padding-right: 3rem;
+   margin-bottom: 3rem;
+   border-radius: 1rem;
+}
+
+.audiolibros-imagen {
+   margin-top: 6rem;
+}
+
+.audiolibro-enlace-description * {
+   color: #17a2b8;
+   font-family:cursive;
+}
